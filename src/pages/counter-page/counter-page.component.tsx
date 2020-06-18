@@ -6,6 +6,7 @@ import {
   decrementAsyncAction,
 } from "../../redux/counter/counter.thunks";
 import { selectCount } from "../../redux/counter/counter.selectors";
+import { Helmet } from "react-helmet";
 
 export const CounterPage = () => {
   const dispatch = useDispatch();
@@ -19,10 +20,15 @@ export const CounterPage = () => {
   const count = useSelector(selectCount);
 
   return (
-    <div>
-      <button onClick={increment}>async +</button>
-      {count}
-      <button onClick={decrement}>async -</button>
-    </div>
+    <>
+      <Helmet>
+        <title>Counter</title>
+      </Helmet>
+      <div>
+        <button onClick={increment}>async +</button>
+        {count}
+        <button onClick={decrement}>async -</button>
+      </div>
+    </>
   );
 };
