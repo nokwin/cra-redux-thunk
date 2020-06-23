@@ -1,7 +1,41 @@
 {
-  "name": "nokwin-redux-thunk",
+  "name": "cra-template-nokwin-redux-thunk",
+  "description": "Template for CRA",
+  "keywords": [
+    "axios",
+    "react",
+    "helmet",
+    "redux",
+    "redux-thunk",
+    "thunk",
+    "formik",
+    "hooks",
+    "react-router",
+    "redux-logger",
+    "reselect",
+    "typescript",
+    "yup"
+  ],
+  "repository": {
+    "url": "https://github.com/nokwin/cra-redux-thunk"
+  },
+  "bugs": {
+    "url": "https://github.com/nokwin/cra-redux-thunk/issues"
+  },
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": {
+    "email": "dmytro.jr@batarin.zp.ua",
+    "name": "Dmytro Batarin"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "main": "template.json",
+  "files": [
+    "template",
+    "template.json"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -27,7 +61,6 @@
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
-    "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "typescript": "~3.7.2",
