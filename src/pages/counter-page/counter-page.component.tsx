@@ -1,12 +1,12 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Helmet } from "react-helmet";
 
 import {
   incrementAsyncAction,
   decrementAsyncAction,
 } from "../../redux/counter/counter.thunks";
 import { selectCount } from "../../redux/counter/counter.selectors";
-import { Helmet } from "react-helmet";
 
 export const CounterPage = () => {
   const dispatch = useDispatch();

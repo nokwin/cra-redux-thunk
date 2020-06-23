@@ -5,11 +5,14 @@ import "./header.styles.scss";
 
 export const Header = () => (
   <div className="header">
-    <Link to="/" className="header--link-item">
+    <Link to="/" className="header__link-item">
       Homepage
     </Link>
-    <Link to="/counter" className="header--link-item">
+    <Link to="/counter" className="header__link-item">
       Counter
+    </Link>
+    <Link to="/forms" className="header__link-item">
+      Forms
     </Link>
   </div>
 );
