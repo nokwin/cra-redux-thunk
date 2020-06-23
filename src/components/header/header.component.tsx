@@ -14,5 +14,8 @@ export const Header = () => (
     <Link to="/forms" className="header__link-item">
       Forms
     </Link>
+    <Link to="/api" className="header__link-item">
+      Api Example
+    </Link>
   </div>
 );
