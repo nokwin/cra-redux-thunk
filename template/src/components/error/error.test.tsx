@@ -1,12 +1,12 @@
 import React from "react";
-import { shallow } from "enzyme";
+import renderer from "react-test-renderer";
 
 import { Error } from "./error.component";
 
 describe("Error component", () => {
-  const container = shallow(<Error />);
-
   it("should render error component", () => {
-    expect(container.html()).toMatchSnapshot();
+    const tree = renderer.create(<Error />).toJSON();
+
+    expect(tree).toMatchSnapshot();
   });
 });
