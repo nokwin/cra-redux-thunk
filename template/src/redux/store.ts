@@ -5,7 +5,8 @@ import thunk from "redux-thunk";
 import { rootReducer } from "./root-reducer";
 import { api } from "../config/api";
 
-const middlewares: any[] = [thunk.withExtraArgument({ api })];
+export const thunkMiddleware = thunk.withExtraArgument({ api });
+const middlewares: any[] = [thunkMiddleware];
 
 if (process.env.NODE_ENV === "development") {
   middlewares.push(logger);

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApiPage component Should return error component if isError = true 1`] = `
+<h1>
+  Oooops! Something went wrong
+</h1>
+`;
+
+exports[`ApiPage component Should return loading component if isLoading = true 1`] = `
+<h1>
+  Loading...
+</h1>
+`;
+
+exports[`ApiPage component Should return rendered list of posts 1`] = `
+<table>
+  <thead>
+    <tr>
+      <td>
+        post title
+      </td>
+      <td>
+        post author
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a
+          href="https://reddit.com//r/react/comments/hfgzdc/strong_typed_redux/"
+          target="_blank"
+        >
+          Strong Typed Redux
+        </a>
+      </td>
+      <td>
+        nicusorch
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          href="https://reddit.com//r/react/comments/hfimsb/help_needed_with_passing_data_between_components/"
+          target="_blank"
+        >
+          Help needed with passing data between components
+        </a>
+      </td>
+      <td>
+        webinaction
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          href="https://reddit.com//r/react/comments/hf2aa6/4_steps_to_add_a_serverless_backend_to_react/"
+          target="_blank"
+        >
+          4 steps to add a serverless back-end to React
+        </a>
+      </td>
+      <td>
+        ndkl15
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          href="https://reddit.com//r/react/comments/hfaymg/how_different_is_react_dev_vs_react_native_dev/"
+          target="_blank"
+        >
+          How different is React dev vs React Native dev?
+        </a>
+      </td>
+      <td>
+        trainermade
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a
+          href="https://reddit.com//r/react/comments/hfao7e/pern_stack_build_a_full_stack_yelp_clone/"
+          target="_blank"
+        >
+          PERN Stack: Build a full stack YELP clone
+        </a>
+      </td>
+      <td>
+        sloppy_networks
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ApiPage component should render ApiPage component 1`] = `
+<table>
+  <thead>
+    <tr>
+      <td>
+        post title
+      </td>
+      <td>
+        post author
+      </td>
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
