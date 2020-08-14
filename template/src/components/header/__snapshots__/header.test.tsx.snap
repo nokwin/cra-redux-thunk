@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render header component 1`] = `
+<div
+  className="header"
+>
+  <a
+    className="header__link-item"
+    href="/"
+    onClick={[Function]}
+  >
+    Homepage
+  </a>
+  <a
+    className="header__link-item"
+    href="/counter"
+    onClick={[Function]}
+  >
+    Counter
+  </a>
+  <a
+    className="header__link-item"
+    href="/forms"
+    onClick={[Function]}
+  >
+    Forms
+  </a>
+  <a
+    className="header__link-item"
+    href="/api"
+    onClick={[Function]}
+  >
+    Api Example
+  </a>
+</div>
+`;

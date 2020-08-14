@@ -9,7 +9,7 @@ import { Header } from "./components/header/header.component";
 import { FormsPage } from "./pages/forms-page/forms-page.component";
 import { ApiPage } from "./pages/api-page/api-page.component";
 
-function App() {
+export const App = () => {
   return (
     <Provider store={store}>
       <BrowserRouter>
@@ -21,6 +21,4 @@ function App() {
       </BrowserRouter>
     </Provider>
   );
-}
-
-export default App;
+};
